@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-family:'Poppins', sans-serif;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    height:100vh;
+    width:100vw;
+    background-image: linear-gradient(to right top , rgb(31, 143, 98),rgb(59, 193, 255));
+   display: flex;
+         align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.glass{
+    display: flex;
+    background-color:rgb(236, 236, 236);
+    height: 80vh;
+    min-width: 60vw;
+    background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.2));
+    border-radius:1rem;
+    z-index: 5;
+    backdrop-filter: blur(1rem);
+
+}
+
+.circle1,.circle2{
+    background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.3));
+
+    min-height: 10rem;
+    min-width: 10rem;
+    border-radius: 50%;
+    position: absolute;
+
+}
+.circle1{
+    top:15%;
+    right:15%;
+}
+.circle2{
+    bottom:16%;
+    left:12%;
+}
+
+.dashboard{
+    flex: 1;
+    background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.1));
+border-radius: 1rem;
+flex-direction: column;
+    
+    
+}
+.links{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin:1rem;
+    padding:1rem;
+    width:100%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+
+    background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3));
+}
+.cards{
+    flex:3;
+    max-height:80vh;
+    
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.dashboard,.cards{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+
+}
+img{
+    height:100px;
+    width:100px;
+    padding:10px
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin:1rem;
+    padding:0.1rem;
+    width: 40%;
+    flex-wrap: nowrap;
+    height: 40%;
+    background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.2));
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.description{
+    background-image: linear-gradient(to right top , rgb(66, 211, 153),rgb(132, 216, 255));
+    padding:0.5rem;
+    margin:0.5rem;
+    border-radius:1rem;
+}
+.userimage>img{
+    height:100px;
+    width:100px;
+    border-radius: 50rem;
+}
